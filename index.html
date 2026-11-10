@@ -19,10 +19,26 @@
           <a href="#" class="nav__link">Blog</a>
           <a href="#" class="nav__link">Pricing</a>
           <a href="#" class="nav__link">Contact Us</a>
-          <a href="#" class="nav__link login">Login</a>
+          <a href="#" class="nav__link login">Log In</a>
           <a href="#" class="nav__link nav__link--primary">Sign Up</a>
       </div>
+      <div class="menu">
+      <button class="btn__menu" onclick="openMenu()">
+      </button>
+      </div>
     </nav>
+    <div class="menu">
+      <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+      </button>
+      <div class="menu__links">
+        <a href="#about" class="menu__link" onclick="closeMenu()">About</a>
+        <a href="#blog" class="menu__link" onclick="closeMenu()">Blog</a>
+        <a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a>
+        <a href="#contact__us" class="menu__link" onclick="closeMenu()">Contact Us</a>
+        <a href="#log__in" class="menu__link" onclick="closeMenu()">Log In</a>
+        <a href="#sign__up" class="menu__link menu__link--primary" onclick="closeMenu()">Sign Up</a>
+      </div>
+    </div>
   </section>
 
 </body>
